@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Dealer - UV Zaštita</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/dealer-home-style.css"/>    
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/login-style.css" type="text/css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <script src="https://kit.fontawesome.com/cfbef2ee9c.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no;”" />
+    <!-- FAVICON SETUP -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#fbc413">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <meta name="msapplication-TileColor" content="#fbc413">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#fff">
+</head>
+<body>
+    
+    <div id="master_wrapper">
+        
+        <div class="sidenav">
+            <i class="fa fa-times" aria-hidden="true"></i>
+            <button class="dropdown-btn"><i class="fa fa-shield" aria-hidden="true"></i>
+                Zaštitne folije
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-container">
+                <button class=" drop1">Zaštita od sunca
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                    <div class="dropdown-2nd-container">
+                        <a href="dealer-uv-zastita.html" class="active-product">UV Zaštita</a>
+                        <a href="#">Zaštita od topline</a>
+                    </div>
+               
+                <a href="#">Zaštita od pogleda</a>
+                <a href="#">Zaštita od krhotina i provale</a>
+                <a href="#">Folije za plastične površine</a>
+              </div>
+            <a href="#about"><i class="fa fa-eye-slash" aria-hidden="true"></i>
+                Dekorativne folije</a>
+            <button class="dropdown-btn"><i class="fa fa-cogs" aria-hidden="true"></i>
+                Napredne folije
+                <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="dropdown-container">
+                    <a href="#">Piši-briši folije</a>
+                    <a href="#">Smart folije</a>
+                  </div>
+            <a href="#clients"><i class="fa fa-car" aria-hidden="true"></i>
+                Folije za auto stakla</a>
+            <a href="#contact"><i class="fa fa-wrench" aria-hidden="true"></i>
+                Alati</a>
+            <br>
+            <br>
+            <button class="dropdown-btn"><i class="fa fa-book" aria-hidden="true"></i>
+                Uvjeti
+                <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="dropdown-container">
+                    <a href="dealer-uvjeti.html">Sigurnost</a>
+                    <a href="#">Pravne informacije</a>
+                    <a href="#">Uvjeti poslovanja</a>
+                  </div>
+                  <a href="dealer-faq.html"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                    Često postavljana pitanja</a>
+            <a href="dealer-kontakt.html"><i class="fa fa-envelope" aria-hidden="true"></i>
+                Kontakt</a>
+         
+          </div>
+          
+          
+          <div class="main">
+            <div class="header">
+                <div class="header_center">
+                    <div class="logo">
+                        <a href="dealer-home.html">
+                        <div class="icon_hero"><img src="img/logo-assembly/icon.svg"></div>
+                        <div class="logotype_hero"><img class="logotype_img" src="img/logo-assembly/logotype.svg"></div>
+                    </a>
+                    </div> 
+                    <div class="search-wrapper">
+                        <input id="searchid" class="search-user" type="search" name="search">
+                        <label class="form-label" for="searchid">Pretraži...</label> 
+                    </div>
+                    <div class="menubar_hero"> 
+                        <ul>
+                            <a class="show-orders order_drop"><i class="far fa-file-alt"></i> (0)</a>
+                            <div id="" class="order_dropdown_content">
+                                <ul>   
+                                    <h5>Narudžba</h5>
+                                    <li class="empty_cart_txt">Narudžba je prazna</li>
+                                    <!--<li>
+                                        <h6>Clear 1 UVC</h6>
+                                        <h6>100,00kn</h6>
+                                       <span class="delete_cart_item"> 
+                                           <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC</h6>
+                                        <h6>100,00kn</h6>
+                                        <div class="delete_cart_item"> 
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVCJakoDugačkaRiječZaTest</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Neutral 40 UVC JakoDugačkaRiječZaTest</h6>
+                                        <h6>500,00kn</h6>
+                                        <span class=" delete_cart_item"> 
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </span>
+                                    </li>
+                                    <li class="order_dropdown_total">
+                                        <h6>Ukupno:</h6>
+                                        <h6>1000,00kn</h6>
+                                    </li>-->
+                                    <a href="#_">
+                                    <button class="finish_order empty_order_button">Završi narudžbu</button></a>
+                                </ul>
+                            </div>
+                            <li><span class="username"><a class="dropbtn" href="#">Ivana Horvat</span><img src="img/profile-pic.jpg" alt="" class="dealer-user pic dropbtn"></a></li>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#" class="username">Korisničko ime</a>
+                                <a href="#home"><!--<img src="img/user-icon-grey.png" alt="" class="dealer-user">--> <i class="fas fa-user"></i> Moj profil</a>
+                                <a href="#about"><!--<img src="img/orders-icon.png" alt="" class="dealer-user">--> <i class="fas fa-file-alt"></i> Narudžbe</a>
+                                <a href="#contact"><!--<img src="img/settings-icon-grey.png" alt="" class="dealer-user">--><i class="fas fa-cog"></i> Postavke</a>
+                                <a href="#contact"><!--<img src="img/exit-icon.png" alt="" class="dealer-user">--> <i class="fas fa-sign-out-alt"></i> Odjava</a>
+                              </div>
+                        </ul>
+                        <i class="fas fa-bars" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+         
+    </div> 
+    <div class="content">
+        <div id="heading">
+        <div class="section header_section breadcrumb-section">
+            <div class="directory_menu">
+                <ul>
+                    <li><a href="#">Zaštitne folije</a></li>
+                    <li><a href="#">Zaštita od sunca</a></li>
+                    <li><a href="#">UV Zaštita</a></li>
+                </ul>
+            </div>
+        </div>
+        <h1>UV Zaštita</h1>
+    </div>
+        <div class="dealer-product-container"> 
+            <div class="dealer-product-info"> 
+                <ul class="cart-list product-list"> 
+                   
+                    <li>
+                        
+                        <div class="dealer-product-image">
+                            <img src="img/clear1uvc.jpg" alt="">
+                        </div>
+                        <div class="dealer-product-meta">
+                            <h5 class="cart-title">Clear 1 UVC</h5>
+                            
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Širina: </h5></label>
+                                <select class="dimensions1" name="dimensions">
+                                  <option value="152">152cm</option>
+                                  <option value="volvo">152cm</option>
+                                </select>
+                              
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Dužina: </h5></label>
+                                <input class="length" type="number" placeholder="cm">
+                                </form>
+                        </div>
+                   
+
+                    <div class="dealer-product-meta dimensions">
+                        <input type="checkbox" class="whole_foil" name="whole_foil">
+                        <label for="whole_foil"><h5>Cijela rola</h5></label>
+                        <input type="number" min="1" max="10" step="1" value="1" class="foil_counter">
+                    </div>
+               
+                        <div class="dealer-product-meta pricing">
+                           <div class="pricey"><h5>Cijena: </h5></div>
+                           <h5 class="cart-title"><div class="price">150,00 kn</div></h5>
+                            <div class="discount-price"><h5>135,00 kn</h5></div>
+                            <div class="discount-label">-10%</div>
+                        </div>
+                        <div class="dealer-product-meta">
+                          <a href="#_" class="order_button"><h5 class="cart-title">Naruči <img src="img/orders-icon-white.png" alt="" class="dealer-user"></h5></a>
+                        
+                        </div>
+                   
+                    </li>
+                
+                    <li>
+                        <div class="dealer-product-image">
+                            <img src="img/neutral40uvc.jpg" alt="">
+                        </div>
+                        <div class="dealer-product-meta">
+                            <h5 class="cart-title">Neutral 40 UVC</h5>
+                          
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Širina: </h5></label>
+                                <select class="dimensions1" name="dimensions">
+                                  <option value="volvo">152cm</option>
+                                  <option value="volvo">152cm</option>
+                                </select>
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Dužina: </h5></label>
+                                <input class="length" type="number" placeholder="cm">
+                            </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <input type="checkbox" class="whole_foil" name="whole_foil">
+                            <label for="whole_foil"><h5>Cijela rola</h5></label>
+                            <input type="number" min="1" max="10" step="1" value="1" class="foil_counter">
+                        </div>
+                
+                        <div class="dealer-product-meta pricing">
+                            <div class="pricey"><h5>Cijena: </h5></div>
+                           <h5 class="cart-title"><div class="price">220,00 kn</div></h5>
+                            <div class="discount-price"><h5>198,00 kn</h5></div>
+                            <div class="discount-label">-10%</div>
+                        </div>
+                        <div class="dealer-product-meta">
+                          <a href="#_" class="order_button"><h5 class="cart-title">Naruči <img src="img/orders-icon-white.png" alt="" class="dealer-user"> </h5></a>
+                          
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dealer-product-image">
+                            <img src="img/amberc.jpg" alt="">
+                        </div>
+                        <div class="dealer-product-meta">
+                            <h5 class="cart-title">AMBER C</h5>
+                          
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Širina: </h5></label>
+                                <select class="dimensions1" name="dimensions">
+                                  <option value="volvo">152cm</option>
+                                  <option value="volvo">152cm</option>
+                                </select>
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Dužina: </h5></label>
+                                <input class="length" type="number" placeholder="cm">
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <input type="checkbox" class="whole_foil" name="whole_foil">
+                            <label for="whole_foil"><h5>Cijela rola</h5></label>
+                            <input type="number" min="1" max="10" step="1" value="1" class="foil_counter">
+                        </div>
+                        <div class="dealer-product-meta pricing">
+                            <div class="pricey"><h5>Cijena: </h5></div>
+                           <h5 class="cart-title"><div class="price">490,00 kn</div></h5>
+                            <div class="discount-price"><h5>441,00 kn</div></h5>
+                            <div class="discount-label">-10%</div>
+                        </div>
+                        <div class="dealer-product-meta">
+                          <a href="#_" class="order_button"><h5 class="cart-title">Naruči <img src="img/orders-icon-white.png" alt="" class="dealer-user"></h5></a>
+                           
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dealer-product-image">
+                            <img src="img/totaluv400.jpg" alt="">
+                        </div>
+                        <div class="dealer-product-meta">
+                            <h5 class="cart-title">Total UV 400</h5>
+                          
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Širina: </h5></label>
+                                <select class="dimensions1" name="dimensions">
+                                  <option value="volvo">152cm</option>
+                                  <option value="volvo">152cm</option>
+                                </select>
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Dužina: </h5></label>
+                                <input class="length" type="number" placeholder="cm">
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <input type="checkbox" class="whole_foil" name="whole_foil">
+                            <label for="whole_foil"><h5>Cijela rola</h5></label>
+                            <input type="number" min="1" max="10" step="1" value="1" class="foil_counter">
+                        </div>
+                        <div class="dealer-product-meta pricing">
+                            <div class="pricey"><h5>Cijena: </h5></div>
+                           <h5 class="cart-title"><div class="price">350,00 kn</div></h5>
+                            <div class="discount-price"><h5>315,00 kn</div></h5>
+                            <div class="discount-label">-10%</div>
+                        </div>
+                        <div class="dealer-product-meta">
+                          <a href="#_" class="order_button"><h5 class="cart-title">Naruči <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></h5></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dealer-product-image">
+                            <img src="img/totaluv400.jpg" alt="">
+                        </div>
+                        <div class="dealer-product-meta">
+                            <h5 class="cart-title">Total UV 400</h5>
+                          
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Širina: </h5></label>
+                                <select class="dimensions1" name="dimensions">
+                                  <option value="volvo">152cm</option>
+                                  <option value="volvo">152cm</option>
+                                </select>
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Dužina: </h5></label>
+                                <input class="length" type="number" placeholder="cm">
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <input type="checkbox" class="whole_foil" name="whole_foil">
+                            <label for="whole_foil"><h5>Cijela rola</h5></label>
+                            <input type="number" min="1" max="10" step="1" value="1" class="foil_counter">
+                        </div>
+                        <div class="dealer-product-meta pricing">
+                            <div class="pricey"><h5>Cijena: </h5></div>
+                           <h5 class="cart-title"><div class="price">350,00 kn</div></h5>
+                            <div class="discount-price"><h5>315,00 kn</div></h5>
+                            <div class="discount-label">-10%</div>
+                        </div>
+                        <div class="dealer-product-meta">
+                          <a href="#_" class="order_button"><h5 class="cart-title">Naruči <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></h5></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dealer-product-image">
+                            <img src="img/totaluv400.jpg" alt="">
+                        </div>
+                        <div class="dealer-product-meta">
+                            <h5 class="cart-title">Total UV 400</h5>
+                          
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Širina: </h5></label>
+                                <select class="dimensions1" name="dimensions">
+                                  <option value="volvo">152cm</option>
+                                  <option value="volvo">152cm</option>
+                                </select>
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Dužina: </h5></label>
+                                <input class="length" type="number" placeholder="cm">
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <input type="checkbox" class="whole_foil" name="whole_foil">
+                            <label for="whole_foil"><h5>Cijela rola</h5></label>
+                            <input type="number" min="1" max="10" step="1" value="1" class="foil_counter">
+                        </div>
+                        <div class="dealer-product-meta pricing">
+                            <div class="pricey"><h5>Cijena: </h5></div>
+                           <h5 class="cart-title"><div class="price">350,00 kn</div></h5>
+                            <div class="discount-price"><h5>315,00 kn</div></h5>
+                            <div class="discount-label">-10%</div>
+                        </div>
+                        <div class="dealer-product-meta">
+                          <a href="#_" class="order_button"><h5 class="cart-title">Naruči <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></h5></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dealer-product-image">
+                            <img src="img/totaluv400.jpg" alt="">
+                        </div>
+                        <div class="dealer-product-meta">
+                            <h5 class="cart-title">Total UV 400</h5>
+                          
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Širina: </h5></label>
+                                <select class="dimensions1" name="dimensions">
+                                  <option value="volvo">152cm</option>
+                                  <option value="volvo">152cm</option>
+                                </select>
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Dužina: </h5></label>
+                                <input class="length" type="number" placeholder="cm">
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <input type="checkbox" class="whole_foil" name="whole_foil">
+                            <label for="whole_foil"><h5>Cijela rola</h5></label>
+                            <input type="number" min="1" max="10" step="1" value="1" class="foil_counter">
+                        </div>
+                        <div class="dealer-product-meta pricing">
+                            <div class="pricey"><h5>Cijena: </h5></div>
+                           <h5 class="cart-title"><div class="price">350,00 kn</div></h5>
+                            <div class="discount-price"><h5>315,00 kn</div></h5>
+                            <div class="discount-label">-10%</div>
+                        </div>
+                        <div class="dealer-product-meta">
+                          <a href="#_" class="order_button"><h5 class="cart-title">Naruči <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></h5></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dealer-product-image">
+                            <img src="img/totaluv400.jpg" alt="">
+                        </div>
+                        <div class="dealer-product-meta">
+                            <h5 class="cart-title">Total UV 400</h5>
+                          
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Širina: </h5></label>
+                                <select class="dimensions1" name="dimensions">
+                                  <option value="volvo">152cm</option>
+                                  <option value="volvo">152cm</option>
+                                </select>
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Dužina: </h5></label>
+                                <input class="length" type="number" placeholder="cm">
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <input type="checkbox" class="whole_foil" name="whole_foil">
+                            <label for="whole_foil"><h5>Cijela rola</h5></label>
+                            <input type="number" min="1" max="10" step="1" value="1" class="foil_counter">
+                        </div>
+                        <div class="dealer-product-meta pricing">
+                            <div class="pricey"><h5>Cijena: </h5></div>
+                           <h5 class="cart-title"><div class="price">350,00 kn</div></h5>
+                            <div class="discount-price"><h5>315,00 kn</div></h5>
+                            <div class="discount-label">-10%</div>
+                        </div>
+                        <div class="dealer-product-meta">
+                          <a href="#_" class="order_button"><h5 class="cart-title">Naruči <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></h5></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dealer-product-image">
+                            <img src="img/totaluv400.jpg" alt="">
+                        </div>
+                        <div class="dealer-product-meta">
+                            <h5 class="cart-title">Total UV 400</h5>
+                          
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Širina: </h5></label>
+                                <select class="dimensions1" name="dimensions">
+                                  <option value="volvo">152cm</option>
+                                  <option value="volvo">152cm</option>
+                                </select>
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Dužina: </h5></label>
+                                <input class="length" type="number" placeholder="cm">
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <input type="checkbox" class="whole_foil" name="whole_foil">
+                            <label for="whole_foil"><h5>Cijela rola</h5></label>
+                            <input type="number" min="1" max="10" step="1" value="1" class="foil_counter">
+                        </div>
+                        <div class="dealer-product-meta pricing">
+                            <div class="pricey"><h5>Cijena: </h5></div>
+                           <h5 class="cart-title"><div class="price">350,00 kn</div></h5>
+                            <div class="discount-price"><h5>315,00 kn</div></h5>
+                            <div class="discount-label">-10%</div>
+                        </div>
+                        <div class="dealer-product-meta">
+                          <a href="#_" class="order_button"><h5 class="cart-title">Naruči <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></h5></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dealer-product-image">
+                            <img src="img/totaluv400.jpg" alt="">
+                        </div>
+                        <div class="dealer-product-meta">
+                            <h5 class="cart-title">Total UV 400</h5>
+                          
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Širina: </h5></label>
+                                <select class="dimensions1" name="dimensions">
+                                  <option value="volvo">152cm</option>
+                                  <option value="volvo">152cm</option>
+                                </select>
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Dužina: </h5></label>
+                                <input class="length" type="number" placeholder="cm">
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <input type="checkbox" class="whole_foil" name="whole_foil">
+                            <label for="whole_foil"><h5>Cijela rola</h5></label>
+                            <input type="number" min="1" max="10" step="1" value="1" class="foil_counter">
+                        </div>
+                        <div class="dealer-product-meta pricing">
+                            <div class="pricey"><h5>Cijena: </h5></div>
+                           <h5 class="cart-title"><div class="price">350,00 kn</div></h5>
+                            <div class="discount-price"><h5>315,00 kn</div></h5>
+                            <div class="discount-label">-10%</div>
+                        </div>
+                        <div class="dealer-product-meta">
+                          <a href="#_" class="order_button"><h5 class="cart-title">Naruči <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></h5></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dealer-product-image">
+                            <img src="img/totaluv400.jpg" alt="">
+                        </div>
+                        <div class="dealer-product-meta">
+                            <h5 class="cart-title">Total UV 400</h5>
+                          
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Širina: </h5></label>
+                                <select class="dimensions1" name="dimensions">
+                                  <option value="volvo">152cm</option>
+                                  <option value="volvo">152cm</option>
+                                </select>
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <form action="/action_page.php">
+                                <label for="dimensions"><h5 class="cart-title other-title">Dužina: </h5></label>
+                                <input class="length" type="number" placeholder="cm">
+                              </form>
+                        </div>
+                        <div class="dealer-product-meta dimensions">
+                            <input type="checkbox" class="whole_foil" name="whole_foil">
+                            <label for="whole_foil"><h5>Cijela rola</h5></label>
+                            <input type="number" min="1" max="10" step="1" value="1" class="foil_counter">
+                        </div>
+                        <div class="dealer-product-meta pricing">
+                            <div class="pricey"><h5>Cijena: </h5></div>
+                           <h5 class="cart-title"><div class="price">350,00 kn</div></h5>
+                            <div class="discount-price"><h5>315,00 kn</div></h5>
+                            <div class="discount-label">-10%</div>
+                        </div>
+                        <div class="dealer-product-meta">
+                          <a href="#_" class="order_button"><h5 class="cart-title">Naruči <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></h5></a>
+                        </div>
+                    </li>
+                </ul>
+               
+            </div>
+        </div>
+    </div>
+    <!--proba kosarica
+    <li>
+        <div>
+          <div class="newtestclass2">
+            <h6>Alpha</h6>
+            <h6 class="dropdown_price">585,00 kn </h6>
+            
+             <span class="delete_cart_item" value="33">
+             <input type="hidden" name="product_id" class="prod_id" value="33"> 
+                 <i class="fa fa-trash" aria-hidden="true"></i>
+             </span>
+            </div>
+            <div class="newtestclass">
+                 <p class="prod_width"> 152,00cm</p> <p>500,00cm</p>
+                 <p> Količina : 1</p>
+             </div>
+           </div></li>
+    proba kosarica-->
+    <div class="footer">
+        <a href="#_"><span class="icon facebook"></span></a>
+        <a href="#_"> <span class="icon instagram"></span></a>
+            <a href="#_"><span class="icon youtube"></span></a>
+                <a href="#_"><span class="icon linkedin"></span></a>
+                <span class="copyright">© 2021. Zaštitne Folije. Sva prava pridržana.</span>
+        </div>
+        <a href="#_" id="to_top_button"><i class="fas fa-chevron-up"></i></a>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--<script src="js/jquery-ui.min.js"></script>-->
+    <script src="js/sidenav_open.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/sidebar-dropdown.js"></script>
+    <script type="text/javascript" src="js/w3dropdown.js"></script>
+    <script type="text/javascript" src="js/fill_whole_foil.js"></script>
+    <script type="text/javascript" src="js/sidebar-arrow-rotate.js"></script>
+    <script type="text/javascript" src="js/to_top.js"></script>
+    <script type="text/javascript" src="js/cart_animation_added.js"></script>
+    <script type="text/javascript" src="js/check_if_search_empty.js"></script>
+    <script type="text/javascript" src="js/check_if_search_empty.js"></script>
+    <script type="text/javascript" src="js/add_to_cart.js"></script>
+    <script type="text/javascript" src="js/product-image-hover.js"></script>
+    <script type="text/javascript" src="js/novi-cart-izracun.js"></script>
+    <script type="text/javascript" src="js/deleteuserbutton.js"></script>
+    <!--<script type="text/javascript" src="js/cart_calc_price.js"></script>-->
+</body>
+</html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Dealer User Edit</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/dealer-home-style.css"/>
+    <!--<link type="text/css" rel="stylesheet" href="css/lightslider.min.css" />-->     
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/login-style.css" type="text/css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <script src="https://kit.fontawesome.com/cfbef2ee9c.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no;”" />
+    <!-- FAVICON SETUP -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#fbc413">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#fbc413">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#fff">
+</head>
+<body>
+    
+    <div id="master_wrapper">
+        
+        <div class="sidenav">
+         
+            <i class="fa fa-times" aria-hidden="true"></i>
+            <button class="dropdown-btn"><i class="fas fa-shield-alt"></i>
+                Zaštitne folije
+                <i class="fas fa-caret-down"></i>
+              </button>
+              <div class="dropdown-container">
+                <button class="drop1">Zaštita od sunca
+                    <i class="fas fa-caret-down"></i>
+                </button>
+                    <div class="dropdown-2nd-container">
+                        <a href="dealer-uv-zastita.html">UV Zaštita</a>
+                        <a href="#">Zaštita od topline</a>
+                    </div>
+               
+                <a href="#">Zaštita od pogleda</a>
+                <a href="#">Zaštita od krhotina i provale</a>
+                <a href="#">Folije za plastične površine</a>
+              </div>
+            <a href="#about"><i class="fas fa-eye-slash"></i>
+                Dekorativne folije</a>
+            <button class="dropdown-btn"><i class="fas fa-cogs"></i>
+                Napredne folije
+                <i class="fas fa-caret-down"></i>
+            </button>
+                <div class="dropdown-container">
+                    <a href="#">Piši-briši folije</a>
+                    <a href="#">Smart folije</a>
+                  </div>
+            <a href="#clients"><i class="fas fa-car"></i>
+                Folije za auto stakla</a>
+            <a href="#contact"><i class="fas fa-tools"></i>
+                Alati</a>
+            <br>
+            <br>
+           <!-- <a href="#clients"><img src="img/user-icon.png" alt="" class="dealer-user"> Moj profil</a>
+            <a href="#contact"><img src="img/orders-icon-white.png" alt="" class="dealer-user"> Moje narudžbe</a>      
+            <a href="dealer-lista-korisnika.html"><img src="img/users-list-white.png" alt="" class="dealer-user">Lista korisnika</a>      
+            <a href="#contact"><img src="img/offers-white.png" alt="" class="dealer-user"> Moje ponude</a>      
+            <a href="#contact"><img src="img/invoice-white.png" alt="" class="dealer-user"> Moji računi</a>      
+            <a href="#contact"><img src="img/edit-info-white.png" alt="" class="dealer-user"> Uredi podatke</a>      
+            <a href="#contact"><img src="img/new-pass-white.png" alt="" class="dealer-user"> Promijeni lozinku</a>      
+            <a href="#contact"><img src="img/exit-icon-white.png" alt="" class="dealer-user"> Odjava</a>    -->  
+            <button class="dropdown-btn"><i class="fas fa-book"></i>
+                Uvjeti
+                <i class="fas fa-caret-down"></i>
+            </button>
+                <div class="dropdown-container">
+                    <a href="dealer-uvjeti.html">Sigurnost</a>
+                    <a href="#">Pravne informacije</a>
+                    <a href="#">Uvjeti poslovanja</a>
+                  </div>
+            <a href="dealer-faq.html"><i class="fas fa-question-circle"></i>
+                Često postavljana pitanja</a>
+            <a href="dealer-kontakt.html"><i class="fas fa-envelope"></i>
+                Kontakt</a>
+          </div>
+          
+          
+          <div class="main">
+            <div class="header">
+                <div class="header_center">
+                    <div class="logo">
+                        <a href="">
+                        <div class="icon_hero"><img src="img/logo-assembly/icon.svg"></div>
+                        <div class="logotype_hero"><img class="logotype_img" src="img/logo-assembly/logotype.svg"></div>
+                    </a>
+                    </div> 
+                    <div class="search-wrapper">
+                        <input id="searchid" class="search-user" type="search" name="search">
+                        <label class="form-label" for="searchid">Pretraži...</label> 
+                    </div>
+                    <div class="menubar_hero"> 
+                        <ul>
+                            <a class="show-orders order_drop"><i class="far fa-file-alt"></i> (0)</a>
+                            <div id="" class="order_dropdown_content">
+                                <ul>   
+                                    <h5>Narudžba</h5>
+                                    <li class="empty_cart_txt">Narudžba je prazna</li>
+                                    <!--<li>
+                                        <h6>Clear 1 UVC</h6>
+                                        <h6>100,00kn</h6>
+                                       <span class="delete_cart_item"> 
+                                           <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC</h6>
+                                        <h6>100,00kn</h6>
+                                        <div class="delete_cart_item"> 
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVCJakoDugačkaRiječZaTest</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Neutral 40 UVC JakoDugačkaRiječZaTest</h6>
+                                        <h6>500,00kn</h6>
+                                        <span class=" delete_cart_item"> 
+                                            <i class="fa fa-trash" aria-hidden="true"></i>
+                                        </span>
+                                    </li>
+                                    <li class="order_dropdown_total">
+                                        <h6>Ukupno:</h6>
+                                        <h6>1000,00kn</h6>
+                                    </li>-->
+                                    <a href="#_">
+                                    <button class="finish_order empty_order_button">Završi narudžbu</button></a>
+                                </ul>
+                            </div>
+                            <li><span class="username dropbtn"><a  href="#">Ivana Horvat</span> <img src="img/profile-pic.jpg" alt="" class="dealer-user pic dropbtn"></a></li>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#" class="username">Korisničko ime</a>
+                                <a href="#home"><!--<img src="img/user-icon-grey.png" alt="" class="dealer-user">--> <i class="fas fa-user"></i> Moj profil</a>
+                                <a href="#about"><!--<img src="img/orders-icon.png" alt="" class="dealer-user">--> <i class="fas fa-file-alt"></i> Narudžbe</a>
+                                <a href="#contact"><!--<img src="img/settings-icon-grey.png" alt="" class="dealer-user">--><i class="fas fa-cog"></i> Postavke</a>
+                                <a href="#contact"><!--<img src="img/exit-icon.png" alt="" class="dealer-user">--> <i class="fas fa-sign-out-alt"></i> Odjava</a>
+                              </div>
+                        </ul>
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+         
+    </div> 
+
+    <div class="content user-profile">
+        <div class="section header_section breadcrumb-section">
+            <div class="directory_menu">
+                <ul>
+                    <li><a href="#">Moj račun</a></li>
+                    <li><a href="#">Moj profil</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--PROFILE PRIMJER STARIJI-->
+      <div class="profile-image">
+              <img src="img/user-placeholder.png" alt="" class="testclass">
+              <input type="file" id="img_upload" name="img" accept=".png, .jpg, .jpeg" >
+              <label for="img_upload"></label>
+              <div class="profile-image profile-info">
+                
+                
+            <h1>Ivana Horvat</h1>
+           <!-- <a href="#_"><button class="editbutton"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Uredi profil</button></a>--><button id="usersubmit" form="profilforma"><i class="fas fa-save"></i> Spremi</button>
+        </div>
+        
+<!-- <div class="slidecontainer">
+    <p>Ostvareni popust: <span id="discount"></span> %</p>
+    <input type="range" min="1" max="50000" value="10050" id="myRange">
+    <span id="spent3">10 000 HRK</span>
+    <span id="spent2">20 000 HRK</span>
+    <span id="spent1">50 000 HRK</span>
+    <p>Potrošeno: <span id="spent"></span> HRK</p>
+  </div>-->
+        </div>
+ <!--STATUS PROFILA SLIDER-->
+ 
+
+
+
+ 
+  
+  
+        <!--STATUS PROFILA SLIDER-->
+        <form action="" class="userforma" id="profilforma">
+            
+        <div class="info personal_info">
+            <div class="info-details"><h4>Osobni podaci</h4></div>
+           <div class="info-details"><!--<h6>Broj telefona</h6>-->
+            <input type="tel" id="phone" name="phone" placeholder="Broj telefona" required>
+           </div>
+            <div class="info-details"><!--<h6>Email</h6>-->
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="info-details"><!--<h6>Adresa</h6>-->
+                <input type="text" id="address" name="address" placeholder="Adresa"  required></div>
+            <div class="info-details"><!--<h6>Adresa</h6>-->
+                <input type="number" id="po_number" name="po_number" placeholder="Poštanski broj"  required></div>
+            <div class="info-details"><!--<h6>Adresa</h6>-->
+                <input type="text" id="city" name="city" placeholder="Grad"  required></div>
+           <div class="info-details" ><!--<h6>Država</h6>-->
+            <select id="countries" name="" label="Država" required>
+                <option value="" disabled selected>Država</option>
+                <option value="">Austrija</option>
+                <option value="">Belgija</option>
+                <option value="">Bugarska</option>
+                <option value="">Cipar</option>
+                <option value="">Češka</option>
+                <option value="">Danska</option>
+                <option value="">Estonija</option>
+                <option value="">Finska</option>
+                <option value="">Francuska</option>
+                <option value="">Grčka</option>
+                <option value="">Hrvatska</option>
+                <option value="">Irska</option>
+                <option value="">Italija</option>
+                <option value="">Litva</option>
+                <option value="">Latvija</option>
+                <option value="">Luksemburg</option>
+                <option value="">Mađarska</option>
+                <option value="">Malta</option>
+                <option value="">Nizozemska</option>
+                <option value="">Njemačka</option>
+                <option value="">Poljska</option>
+                <option value="">Portugal</option>
+                <option value="">Rumunjska</option>
+                <option value="">Slovačka</option>
+                <option value="">Slovenija</option>
+                <option value="">Španjolska</option>
+                <option value="">Švedska</option>
+              </select></div>
+           
+   
+        </div> 
+        <div class="info_wrapper ">
+            <div class="info partner-info">
+            <div class="info-details"><h6>Entitet:</h6>
+                <select id="entity" name="" required>
+                    <option value="">Fizička osoba</option>
+                    <option value="">Pravna osoba</option>
+                  </select>
+                </div>
+                <div class="info-details">
+                    <input type="text" id="company" name="company" placeholder="Ime kompanije" required>
+                    </div> 
+                <div class="info-details">
+                    <input type="number" id="oib" name="oib" placeholder="OIB" required>
+                    </div>
+              
+                </div>
+                <div class="info partner-info">
+                
+                        <div class="info-details">
+                            <input type="number" id="iban" name="iban" placeholder="IBAN" required>
+                            </div>
+                            
+                                <div class="info-details">
+                                    <input type="number" id="invoice_delivery_address" name="invoice_delivery_address" placeholder="Adresa za dostavu računa" required>
+                                    </div>
+                                    <div class="info-details">
+                                        <input type="text" id="foil_delivery_address" name="foil_delivery_address" placeholder="Adresa za dostavu folije" required>
+                                        </div>
+                </div>
+        </div>
+        <div class="info_wrapper">
+        <div class="info partner-info">
+            <div class="info-details"><h4>Društvene mreže</h4><br>
+                <span class="icon facebook"></span>  <input type="url" id="social_fb" name="social" placeholder="facebook.com/primjer"><br>
+                <span class="icon instagram"></span>  <input type="url" id="social_inst" name="social" placeholder="instagram.com/primjer"><br>
+              <!--  <span class="icon youtube"></span>  <input type="url" id="social" name="social" placeholder="youtube.com/channel/primjer"><br>-->
+                <span class="icon linkedin"></span>  <input type="url" id="social_lnk" name="social" placeholder="linkedin.com/primjer"><br>
+            </div>
+        </div>
+        <div class="info partner-info">
+            <div class="info-details foiltype_checkbox">
+                <h6>Vrsta folija:</h6><br>
+             
+                  <input id="foiltype" type="checkbox" value="Auto folije">
+                  <label for="foiltype">Auto folije</label>
+                  <input id="foiltype1" type="checkbox" value="Obične folije">
+                  <label for="foiltype">Obične folije</label>
+            </div>
+           <div class="info-details"><h6>Uloga:</h6>
+            <select id="role" name="" required>
+                <option value="">Partner</option>
+                <option value="">Partner 1</option>
+              </select></div>
+            <div class="info-details">
+            <p>Ugovori o prodaji (1)</p></div>
+           <div class="info-details">
+            <p><a href="dealer-narudzbe.html">Nedavne narudžbe</a></p></div>
+           
+          
+                  <!--  <div class="info-details"><h6>Aktivan:</h6>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                  </label>
+            </div>-->
+        </div> 
+         <div class="info-notes notes-profile-edit">
+                <textarea name="" id="" cols="50" rows="16" placeholder="Ovdje zapišite vaše bilješke"></textarea>
+           </div>
+    </div>
+      
+    </form>
+
+   
+    </div>
+
+    <div class="footer">
+    <a href="#_"><span class="icon facebook"></span></a>
+    <a href="#_"> <span class="icon instagram"></span></a>
+        <a href="#_"><span class="icon youtube"></span></a>
+            <a href="#_"><span class="icon linkedin"></span></a>
+            <span class="copyright">© 2021. Zaštitne Folije. Sva prava pridržana.</span>
+    </div>
+    
+    <a href="#_" id="to_top_button"><i class="fas fa-chevron-up"></i></a>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>-->
+    <script type="text/javascript" src="js/sidebar-dropdown.js"></script>
+    <script type="text/javascript" src="js/w3dropdown.js"></script>
+    <script type="text/javascript" src="js/hoverchange.js"></script>
+    <script type="text/javascript" src="js/sidenav_open.js"></script>
+    <script type="text/javascript" src="js/sidebar-arrow-rotate.js"></script>
+    <script type="text/javascript" src="js/to_top.js"></script>
+    <script type="text/javascript" src="js/check_if_search_empty.js"></script>
+    <!--<script type="text/javascript" src="js/profile-status - Copy.js"></script>-->
+</body>
+</html>

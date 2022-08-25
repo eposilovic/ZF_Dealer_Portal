@@ -1,0 +1,39 @@
+.invalid-feedback{
+    font-size:15px;
+    line-height:15px;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    display: block;
+    max-width: 100%;
+    background-color: #fac212;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .alert{
+      background-color:#fac212;
+      color:#fff;
+      text-align: center;
+      font-size: 15px;
+      margin-bottom: 8px;
+      border-radius:0;
+}
+
+
+/*
+-----RESET PASS BIJELA IKONA-----
+<div class="inputwrap">
+<img src="/img/new-pass-white.png" alt="" class="payment">
+<input id="password" type="password" placeholder="password" class="" name="password" required="" autocomplete="new-password">
+</div>
+<div class="inputwrap">
+<img src="/img/new-pass-white.png" alt="" class="payment">
+<input id="password-confirm" type="password" placeholder="new password" name="password_confirmation" required="" autocomplete="new-password">
+</div>
+*/
+

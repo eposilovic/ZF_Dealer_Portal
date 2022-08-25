@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Dealer User</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/dealer-home-style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/lightslider.min.css" />     
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/login-style.css" type="text/css">
+    <!---<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <script src="https://kit.fontawesome.com/cfbef2ee9c.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no;”" />
+    <!-- FAVICON SETUP -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#fbc413">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#fbc413">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#fff">
+</head>
+<body>
+    
+    <div id="master_wrapper">
+        
+        <div class="sidenav">
+         
+            <i class="fa fa-times" aria-hidden="true"></i>
+            <button class="dropdown-btn">Zaštitne folije
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-container">
+                <button class=" drop1">Zaštita od sunca
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                    <div class="dropdown-2nd-container">
+                        <a href="dealer-uv-zastita.html">UV Zaštita</a>
+                        <a href="#">Zaštita od topline</a>
+                    </div>
+               
+                <a href="#">Zaštita od pogleda</a>
+                <a href="#">Zaštita od krhotina i provale</a>
+                <a href="#">Folije za plastične površine</a>
+              </div>
+            <a href="#about">Dekorativne folije</a>
+            <button class="dropdown-btn">Napredne folije
+                <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="dropdown-container">
+                    <a href="#">Piši-briši folije</a>
+                    <a href="#">Smart folije</a>
+                  </div>
+            <a href="#clients">Folije za auto stakla</a>
+            <a href="#contact">Alati</a>
+            <br>
+            <br>
+           <!-- <a href="#clients"><img src="img/user-icon.png" alt="" class="dealer-user"> Moj profil</a>
+            <a href="#contact"><img src="img/orders-icon-white.png" alt="" class="dealer-user"> Moje narudžbe</a>      
+            <a href="dealer-lista-korisnika.html"><img src="img/users-list-white.png" alt="" class="dealer-user">Lista korisnika</a>      
+            <a href="#contact"><img src="img/offers-white.png" alt="" class="dealer-user"> Moje ponude</a>      
+            <a href="#contact"><img src="img/invoice-white.png" alt="" class="dealer-user"> Moji računi</a>      
+            <a href="#contact"><img src="img/edit-info-white.png" alt="" class="dealer-user"> Uredi podatke</a>      
+            <a href="#contact"><img src="img/new-pass-white.png" alt="" class="dealer-user"> Promijeni lozinku</a>      
+            <a href="#contact"><img src="img/exit-icon-white.png" alt="" class="dealer-user"> Odjava</a>    -->  
+            <button class="dropdown-btn">Uvjeti
+                <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="dropdown-container">
+                    <a href="dealer-uvjeti.html">Sigurnost</a>
+                    <a href="#">Pravne informacije</a>
+                    <a href="#">Uvjeti poslovanja</a>
+                  </div>
+            <a href="dealer-faq.html">Često postavljana pitanja</a>
+            <a href="dealer-kontakt.html">Kontakt</a>
+          </div>
+          
+          
+          <div class="main">
+            <div class="header">
+                <div class="header_center">
+                    <div class="logo">
+                        <a href="">
+                        <div class="icon_hero"><img src="img/logo-assembly/icon.svg"></div>
+                        <div class="logotype_hero"><img class="logotype_img" src="img/logo-assembly/logotype.svg"></div>
+                    </a>
+                    </div> 
+                   
+                        <div class="search-wrapper">
+                            <input id="searchid" class="search-user" type="search" name="search">
+                            <label class="form-label" for="searchid">Pretraži...</label> 
+                        </div>
+                       
+                   
+                    <div class="menubar_hero"> 
+                        <ul>
+                            <a class="show-orders order_drop full_order"><i class="fa fa-file-text-o" aria-hidden="true"></i> (9)</a>
+                            <div id="" class="order_dropdown_content">
+                                <ul>   
+                                    <h5>Narudžba</h5>
+                                    <li>
+                                        <div>
+                                            <div class="newtestclass2">
+                                                <h6>Clear 1 UVC 1</h6>
+                                                <h6>100,00kn</h6>
+                                                    <span class="delete_cart_item"> 
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </span>
+                                            </div>
+                                            <div class="newtestclass">
+                                                <p> 152x500cm</p>
+                                                <p> Količina : 1</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                   <!-- <li>
+                                        <h6>Clear 1 UVC 2</h6>
+                                        <h6>100,00kn</h6>
+                                        <div class="delete_cart_item"> 
+                                            <i class="fas fa-trash-alt"></i>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC 3</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fas fa-trash-alt"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC 4</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fas fa-trash-alt"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC 5</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fas fa-trash-alt"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC 6</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fas fa-trash-alt"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVCJakoDugačkaRiječZaTest</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fas fa-trash-alt"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Clear 1 UVC 7</h6>
+                                        <h6>100,00kn</h6>
+                                        <span class="delete_cart_item"> 
+                                            <i class="fas fa-trash-alt"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h6>Neutral 40 UVC JakoDugačkaRiječZaTest</h6>
+                                        <h6>500,00kn</h6>
+                                        <span class=" delete_cart_item"> 
+                                            <i class="fas fa-trash-alt"></i>
+                                        </span>
+                                    </li>-->
+                                    <li class="order_dropdown_total">
+                                        <h6>Ukupno:</h6>
+                                        <h6>1000,00kn</h6>
+                                    </li>
+                                    <a href="http://10.10.14.56/Dealer_Portal/dealer-kosarica-page.html">
+                                    <button class="finish_order">Završi narudžbu</button></a>
+                                </ul>
+                            </div>
+                            <li><span class="username dropbtn"><a href="#_">Ivana Horvat </span> <img src="img/batman-profil.jpg" alt="" class="dealer-user pic dropbtn"></a></li>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#" class="username">Korisničko ime</a>
+                                <a href="#home"><!--<img src="img/user-icon-grey.png" alt="" class="dealer-user">--> <i class="fas fa-user"></i> Moj profil</a>
+                                <a class="show-orders-submenu" href="#about"><i class="fas fa-file-alt"></i> Narudžbe</a>
+                                <a href="#contact"><!--<img src="img/settings-icon-grey.png" alt="" class="dealer-user">--> <i class="fas fa-cog"></i> Postavke</a>
+                                <a href="#contact"><!--<img src="img/exit-icon.png" alt="" class="dealer-user">--> <i class="fas fa-sign-out-alt"></i> Odjava</a>
+                            </div>
+                        </ul>
+                        <i class="fas fa-bars" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+         
+    </div> 
+
+    <div class="content user-profile">
+        <div class="section header_section breadcrumb-section">
+            <div class="directory_menu">
+                <ul>
+                    <li><a href="#">Moj račun</a></li>
+                    <li><a href="#">Moj profil</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--PROFILE PRIMJER STARIJI-->
+      <div class="profile-image">
+              <img src="img/batman-profil.jpg" alt="">
+              <div class="profile-image profile-info">
+            <h1>Ivana Horvat</h1>
+            <a href="#_"><button class="editbutton"><i class="fas fa-edit"></i> Uredi profil</button></a>
+        
+        </div>
+        <div class="slidecontainer">
+            <h6>Potrošeno: <span id="spent"></span> HRK</h6>
+            <input type="range" min="1" max="50000" value="10050" id="myRange">
+            <span id="spent3">10 000 HRK</span>
+            <span id="spent2">20 000 HRK</span>
+            <span id="spent1">50 000 HRK</span>
+            <h6>Ostvareni popust: <span id="discount"></span><span id="percentage_sign">%</span></h6>
+          </div>
+        </div>
+        
+
+        <!--STATUS PROFILA SLIDER-->
+      
+       
+
+        <!--STATUS PROFILA SLIDER-->
+   <div class="majorwrapper">
+        <div class="info personal_info">
+            <div class="info-details"><h4>Osobni podaci</h4></div>
+           <div class="info-details"><h6>Broj telefona</h6>
+            <p>+385 91 911 9111</p></div>
+            <div class="info-details"><h6>Email</h6>
+            <p>email-adresa@email.com</p></div>
+           <div class="info-details"><h6>Država</h6>
+            <p>Hrvatska</p></div>
+           <div class="info-details"><h6>Adresa</h6>
+            <p>Ulica 25, Zagreb</p></div>
+           <div class="info-details"><h6>Poštanski broj</h6>
+            <p>10000</p></div>
+            <div class="info-details"><h6>Društvene mreže</h6>
+                <a href="#_"><span class="icon facebook"></span></a>
+                    <a href="#_"> <span class="icon instagram"></span></a>
+                        <a href="#_"><span class="icon youtube"></span></a>
+                            <a href="#_"><span class="icon linkedin"></span></a></div>
+        </div> 
+        <div class="info_wrapper info_wrapper_edited">
+            <div class="info partner-info partner-entity">
+                <div class="profile-column-wrapper">
+                <div class="info-details">
+                    <h6>Entitet</h6>
+                    <p class="type_of_foil">Fizička osoba</p>
+                </div>
+               <div class="info-details"><h6>Kompanija:</h6>
+                <p>Ime kompanije</p></div></div>
+                <div class="profile-column-wrapper">
+               <div class="info-details"><h6>OIB:</h6>
+                <p>5646853</p></div>
+               <div class="info-details"><h6>Broj računa:</h6>
+                <p>5647984535</p></div></div>
+                <div class="profile-column-wrapper">
+                <div class="info-details"><h6>Adresa za dostavu folije:</h6>
+                    <p>Ime Ulice 15, 10000 Zagreb</p></div>
+                <div class="info-details"><h6>Adresa za dostavu računa:</h6>
+                    <p>Druga Ulica 10, 10000 Zagreb</p></div>
+                </div>
+            </div>
+            </div> 
+          
+        
+        
+        </div>
+        <div class="info_wrapper info_wrapper_edited">
+        <div class="info partner-info">
+            <div class="info-details">
+                <h6>Vrsta folija:</h6>
+                <p class="type_of_foil">Auto folije</p>
+            </div>
+           <div class="info-details"><h6>Uloga:</h6>
+            <p>Partner</p></div>
+            <div class="info-details">
+            <p>Ugovori o prodaji (1)</p></div>
+           <div class="info-details">
+            <p><a href="dealer-narudzbe.html">Nedavne narudžbe</a></p></div>
+           <div class="info-details"><h6>Aktivan:</h6>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                  </label>
+            </div>
+        </div> 
+      
+        <div class="info-notes personal_notes">
+            <textarea name="" id="" cols="50" rows="16" placeholder="Ovdje zapišite vaše bilješke"></textarea>
+       </div>
+    
+    </div>
+
+</div>
+</div>
+
+    <div class="footer">
+    <a href="#_"><span class="icon facebook"></span></a>
+    <a href="#_"> <span class="icon instagram"></span></a>
+        <a href="#_"><span class="icon youtube"></span></a>
+            <a href="#_"><span class="icon linkedin"></span></a>
+            <span class="copyright">© 2021. Zaštitne Folije. Sva prava pridržana.</span>
+    </div>
+    
+    <a href="#_" id="to_top_button"><i class="fas fa-chevron-up"></i></a>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--<script src="js/jquery-ui.min.js"></script>-->
+    <!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>-->
+    <script type="text/javascript" src="js/sidebar-dropdown.js"></script>
+    <script type="text/javascript" src="js/profile-status.js"></script>
+    <script type="text/javascript" src="js/w3dropdown.js"></script>
+    <script type="text/javascript" src="js/hoverchange.js"></script>
+    <script type="text/javascript" src="js/sidenav_open.js"></script>
+    <!--<script type="text/javascript" src="js/delete_cart_item.js"></script>-->
+    <script type="text/javascript" src="js/sidebar-arrow-rotate.js"></script>
+    <script type="text/javascript" src="js/to_top.js"></script>
+    <script type="text/javascript" src="js/check_if_search_empty.js"></script>
+    <script type="text/javascript" src="js/emptycarttest.js"></script>
+</body>
+</html>

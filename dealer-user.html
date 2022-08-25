@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Dealer User</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/dealer-home-style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/lightslider.min.css" />     
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/login-style.css" type="text/css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <script src="https://kit.fontawesome.com/cfbef2ee9c.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no;”" />
+    <!-- FAVICON SETUP -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#fbc413">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#fbc413">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#fff">
+</head>
+<body>
+    
+    <div id="master_wrapper">
+        
+        <div class="sidenav">
+        
+        <i class="fa fa-times" aria-hidden="true"></i>
+            <button class="dropdown-btn">Zaštitne folije
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-container">
+                <button class="drop1">Zaštita od sunca
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                    <div class="dropdown-2nd-container">
+                        <a href="dealer-uv-zastita.html">UV Zaštita</a>
+                        <a href="#">Zaštita od topline</a>
+                    </div>
+               
+                <a href="#">Zaštita od pogleda</a>
+                <a href="#">Zaštita od krhotina i provale</a>
+                <a href="#">Folije za plastične površine</a>
+              </div>
+            <a href="#about">Dekorativne folije</a>
+            <button class="dropdown-btn">Napredne folije
+                <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="dropdown-container">
+                    <a href="#">Piši-briši folije</a>
+                    <a href="#">Smart folije</a>
+                  </div>
+            <a href="#clients">Folije za auto stakla</a>
+            <a href="#contact">Alati</a>
+            <br>
+            <br>
+           <!-- <a href="#clients"><img src="img/user-icon.png" alt="" class="dealer-user"> Moj profil</a>
+            <a href="#contact"><img src="img/orders-icon-white.png" alt="" class="dealer-user"> Moje narudžbe</a>      
+            <a href="dealer-lista-korisnika.html"><img src="img/users-list-white.png" alt="" class="dealer-user">Lista korisnika</a>      
+            <a href="#contact"><img src="img/offers-white.png" alt="" class="dealer-user"> Moje ponude</a>      
+            <a href="#contact"><img src="img/invoice-white.png" alt="" class="dealer-user"> Moji računi</a>      
+            <a href="#contact"><img src="img/edit-info-white.png" alt="" class="dealer-user"> Uredi podatke</a>      
+            <a href="#contact"><img src="img/new-pass-white.png" alt="" class="dealer-user"> Promijeni lozinku</a>      
+            <a href="#contact"><img src="img/exit-icon-white.png" alt="" class="dealer-user"> Odjava</a>    -->  
+            <button class="dropdown-btn">Uvjeti
+                <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="dropdown-container">
+                    <a href="dealer-uvjeti.html">Sigurnost</a>
+                    <a href="#">Pravne informacije</a>
+                    <a href="#">Uvjeti poslovanja</a>
+                  </div>
+                  <a href="dealer-faq.html">Često postavljana pitanja</a>
+            <a href="dealer-kontakt.html">Kontakt</a>
+          </div>
+          
+         
+          <div class="main">
+            <div class="header">
+                <div class="header_center">
+                    <div class="logo">
+                        <a href="">
+                        <div class="icon_hero"><img src="img/logo-assembly/icon.svg"></div>
+                        <div class="logotype_hero"><img class="logotype_img" src="img/logo-assembly/logotype.svg"></div>
+                    </a>
+                    </div> 
+                    <div class="search-wrapper">
+                        <input id="searchid" class="search-user" type="search" name="search">
+                        <label class="form-label" for="searchid">Pretraži...</label> 
+                    </div>
+                    <div class="menubar_hero"> 
+                        <ul>
+                            <li><span class="username"><a class="dropbtn" href="#">Ivana Horvat</span> <img src="img/profile-pic.jpg" alt="" class="dealer-user pic dropbtn"></a></li>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#" class="username">Korisničko ime</a>
+                                <a href="#home"><!--<img src="img/user-icon-grey.png" alt="" class="dealer-user">--><i class="fas fa-user"></i> Moj profil</a>
+                                <a href="#about"><!--<img src="img/orders-icon.png" alt="" class="dealer-user">--><i class="fas fa-file-alt"></i> Narudžbe</a>
+                                <a href="#contact"><!--<img src="img/settings-icon-grey.png" alt="" class="dealer-user">--><i class="fas fa-cog"></i> Postavke</a>
+                                <a href="#contact"><!--<img src="img/exit-icon.png" alt="" class="dealer-user">--><i class="fas fa-sign-out-alt"></i> Odjava</a>
+                              </div>
+                        </ul>
+                        <i class="fas fa-bars" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+         
+    </div> 
+  
+    <div class="content user-profile">
+        <div class="section header_section breadcrumb-section">
+            <div class="directory_menu">
+                <ul>
+                    <li><a href="#">Moj profil</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--PROFILE PRIMJER STARIJI-->
+      <div class="profile-image">
+            <!--  <img src="img/profile-pic.jpg" alt="">-->
+            <h1>Ime Prezime</h1>
+           <!-- <button class="odjava"> <a href="">Odjavi se </a><img src="img/exit-icon-white.png"></button>-->
+        </div>
+
+       <!-- <div class="info">
+            <div class="info-details"><h4>Osobni podaci</h4></div>
+           <div class="info-details"><h6>Broj telefona</h6>
+            <p>+385 91 911 9111</p></div>
+            <div class="info-details"><h6>Email</h6>
+            <p>email-adresa@email.com</p></div>
+           <div class="info-details"><h6>Adresa</h6>
+            <p>Ulica 25, 10000 Zagreb</p></div>
+        </div> -->
+
+        <div class="boxevi">
+            <a href="dealer-profil.html">
+            <div class="box box-orders box5">
+               <!-- <img src="img/user-icon-black.png" alt="" class="dealer-user" id="userimg">-->
+                <i class="fas fa-user panel-icons"></i>
+                <h4>Moj profil</h4>
+                <h6>Provjerite status svojih narudžbi ili pregledajte ranije narudžbe</h6>
+            </div>
+        </a>
+        <a href="#_">
+            <div class="box box-orders box1">
+                <!--<img src="img/orders-icon-black.png" alt="" class="dealer-user" id="orderimg">-->
+                <i class="fas fa-file-alt panel-icons"></i>
+                <h4>Moje narudžbe</h4>
+                <h6>Provjerite status svojih narudžbi ili pregledajte ranije narudžbe</h6>
+            </div>
+        </a>
+        <a href="dealer-lista-korisnika.html">
+            <div class="box box-orders box6">
+                <!--<img src="img/users-list.png" alt="" class="dealer-user" id="userlistimg">-->
+                <i class="fas fa-address-book panel-icons"></i>
+                <h4>Lista korisnika</h4>
+                <h6>Provjerite i/ili uredite listu svojih korisnika </h6>
+            </div>
+        </a>
+        <a href="#_">
+            <div class="box box-orders box7">
+                <!--<img src="img/offers.png" alt="" class="dealer-user" id="offersimg">-->
+                <i class="fas fa-list-alt panel-icons"></i>
+                <h4>Moje ponude</h4>
+                <h6>Provjerite status svojih ponuda ili pregledajte ranije ponuda</h6>
+            </div>
+        </a>
+        <a href="#_">
+            <div class="box box-orders box8">
+                <!--<img src="img/invoice.png" alt="" class="dealer-user" id="invoiceimg">-->
+                <i class="fas fa-file-invoice panel-icons"></i>
+                <h4>Moji računi</h4>
+                <h6>Provjerite status svojih računa ili pregledajte ranije račune</h6>
+            </div>
+        </a>
+        <a href="#_">
+            <div class="box box-orders box2">
+                <!--<img src="img/edit-info.png" alt="" class="dealer-user" id="settingsimg">-->
+                <i class="fas fa-user-edit panel-icons"></i>
+                <h4>Uredi podatke</h4>
+                <h6>Ažurirajte osobne podatke i osigurajte brži i lakši završetak vaših narudžbi</h6>
+            </div>
+            
+        </a>
+        <a href="#_">
+            <div class="box box-orders box3">
+                <!--<img src="img/new-pass.png" alt="" class="dealer-user" id="lockimg">-->
+                <i class="fas fa-lock panel-icons"></i>
+                <h4>Želite novu lozinku?</h4>
+                <h6>Promijenite lozinku putem koje se prijavljujete u vaš korisnički račun</h6>
+            </div>
+        </a>
+        <a href="#_">
+            <div class="box box-orders box4">
+                <!--<img src="img/exit-icon-bl.png" alt="" class="dealer-user" id="exitimg">-->
+                <i class="fas fa-sign-out-alt panel-icons"></i>
+                <h4>Odjavi se</h4>
+                <h6>Odjavi se iz korisničkog računa ako ne trebaš ništa od navedenog</h6>
+            </div>
+        </a>
+        <a href="#_">
+            <div class="box box-orders box4">
+                <!--<img src="img/exit-icon-bl.png" alt="" class="dealer-user" id="exitimg">-->
+                <i class="fa fa-pie-chart panel-icons" aria-hidden="true"></i>
+                <h4>Moja potrošnja</h4>
+                <h6>Statistika o kupljenim i prodanim folijama</h6>
+            </div>
+        </a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+    <a href="#_"><span class="icon facebook"></span></a>
+    <a href="#_"> <span class="icon instagram"></span></a>
+        <a href="#_"><span class="icon youtube"></span></a>
+            <a href="#_"><span class="icon linkedin"></span></a>
+            <span class="copyright">© 2021. Zaštitne Folije. Sva prava pridržana.</span>
+    </div>
+    
+    <a href="#_" id="to_top_button"><i class="fas fa-chevron-up"></i></a>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--<script src="js/jquery-ui.min.js"></script>-->
+    <!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>-->
+    <script type="text/javascript" src="js/sidebar-dropdown.js"></script>
+    <script type="text/javascript" src="js/w3dropdown.js"></script>
+    <script type="text/javascript" src="js/hoverchange.js"></script>
+    <script type="text/javascript" src="js/sidenav_open.js"></script>
+    <script type="text/javascript" src="js/sidebar-arrow-rotate.js"></script>
+    <script type="text/javascript" src="js/to_top.js"></script>
+    <script type="text/javascript" src="js/check_if_search_empty.js"></script>
+</body>
+</html>

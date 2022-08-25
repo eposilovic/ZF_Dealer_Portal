@@ -1,0 +1,528 @@
+.client-details{
+    padding: 5px 8px 5px 5px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background: #fac212;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0 2px 6px -2px rgb(0 0 0 / 25%);
+    transition: .3s;
+    width: 200px;
+}
+
+.client-details:hover{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background: #fac212;
+    color: #474b50;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 30%);
+}
+
+.dealer-product-meta .client-details h5{
+    font-size: 16px;
+    display: inline-block;
+}
+
+.client-button{
+    width: 250px;
+}
+
+
+.client-overlay{
+    background-color: rgba(0,0,0,.66);
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    display: none;
+}
+
+.client-popup{
+    background-color: #fff;
+    display: block;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 10px 10px 30px rgb(255 255 255 / 20%);
+    padding: 30px;
+    margin: 10% auto;
+    border-radius: 5px;
+}
+.client-p{
+    padding: 10px 5px 0 0;
+    display: inline;
+    color: #181a1b;
+}
+.called-wrap .called{
+    padding: 10px 5px 0 0;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 0;
+}
+
+.called, .called-yes, .answered-no{
+    display: inline;
+}
+
+.called-yes{
+    background-color: forestgreen;
+    padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.called-no{
+    background-color: orangered;
+    padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.answered-yes{
+    background-color: forestgreen;
+    padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.answered-no{
+    background-color: orangered;
+    padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.client-popup textarea{
+    margin: 10px 0;
+    resize: none;
+}
+
+.called-wrap{
+    height: 300px;
+    overflow: auto;
+    background-color: #00000003;
+    border-radius: 5px;
+    box-shadow: 2px 5px 8px 1px rgb(0 0 0 / 50%);
+}
+
+.called-wrap div{
+    padding: 20px 10px;
+    box-shadow: 0px 3px 5px 3px #0000001f;
+}
+
+
+.client-overlay textarea:nth-of-type(2), .client-overlay textarea:nth-of-type(3){
+    width: 49%;
+}
+
+.client-popup h5{
+    padding: 15px 0;
+    color: #181a1b;
+}
+
+.called-wrap p{
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 13px;
+    color: #181a1b;
+    margin-left: 8px;
+}
+
+.called-wrap p span{
+    font-weight: 500;
+}
+
+/*-----------FILTER CSS-----------*/
+  .filterDiv {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none; 
+  }
+
+  .show {
+    display: block;
+  }
+
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .btn:hover {
+    background-color: #ebe7e7;
+  }
+  
+  .btn.active {
+    background-color: #fcfcfc;
+    color: #181a1b;
+    border-radius: 4px 4px 0 0;
+    box-shadow: 7px -5px 7px 3px #0000001f;
+    font-weight: 500;
+  }
+
+.contact-src{
+    left: 10px;
+    position: relative;
+    padding: 5px;
+    border-radius: 3px;
+    border: 2px solid lightgrey;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 10%);
+}
+
+.dodatne_info_forma textarea{
+    min-height: 50px;
+}
+
+.users-list-form li .dealer-product-meta, .list-of-users-header .dealer-product-meta, .list-of-users li .dealer-product-meta{
+    width: 240px;
+}
+
+.dodatne_info_box{
+    margin: 10% auto;
+}
+
+.dodatne_info_close{
+    width: 10%;
+    float: right;
+}
+
+/*HOVER VISE DETALJA*/
+.company-details-wrapper{
+    display: none;
+    background: #fff;
+    box-shadow: 3px 3px 3px 3px #0000001a;
+    border-radius: 5px;
+    border: 1px solid #0000001a;
+    padding: 10px;
+    width: 200px;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 10%;
+}
+
+.dealer-product-meta .company-details-wrapper h5{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.hover-activator{
+    cursor: pointer;
+   
+}
+
+.cart-title .fa{
+    color: #a7a7a7;
+    transition: .3s;
+}
+
+@media(max-width: 1024px){
+    .users-list-form li .dealer-product-meta, .list-of-users-header .dealer-product-meta, .list-of-users li .dealer-product-meta{
+        width: 100%;
+    }
+    .dealer-product-meta .list-of-users-title{
+        font-weight: 600;
+    }
+}
+
+
+.empty_client_list{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 3px 3px 3px 3px #00000014;
+    display: none;
+    z-index: 99;
+}
+
+.empty_client_list .fa{
+    color: #fac212;
+    padding: 0 0 15px;
+}
+
+.empty_client_list h6{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 12px 0 17px;
+}
+
+.empty_client_list button{
+    padding: 10px;
+    background-color: #fac212;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+    margin: 5px;
+}
+
+.empty_client_list button:hover{
+    background-color: #f90;
+}
+
+.empty_client_list button .fa{
+    color: #fff;
+    padding: 0;
+}
+
+.client-overlay-empty{
+    display: none;
+    background-color: rgba(0,0,0,.66);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+.client-details-empty{
+    padding: 5px 8px 5px 5px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background: #fac212;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 30%);
+    transition: .3s;
+    width: 200px;
+}
+
+.client-details-empty h5{
+    display: inline-block;
+}
+
+.client-overlay-empty h4{
+    text-align: center;
+    padding: 20px 0;
+    color: #181a1b;
+}
+
+.client-overlay-empty button{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background: #fac212;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 30%);
+    transition: .3s;
+    width: 200px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.client-overlay-empty button:hover{
+    background: #f90;
+}
+/*HOVER VISE DETALJA*/
+
+/*----EDIT DETAILS PAGE----*/
+.client-txtarea{
+    resize: vertical;
+    padding: 10px;
+    min-height: 62px;
+    margin-top: 10px;
+    max-height: 140px;
+    box-shadow: 0 2px 6px -2px rgb(0 0 0 / 25%);
+}
+.client-date{
+    border: 2px solid lightgrey;
+    box-shadow: 0 2px 6px -2px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    padding: 8px;
+    cursor: text;
+}
+input[type="radio"] {
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  input[type="radio"] + label{
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .client-save{
+     float: right;
+     margin-top: -25px !important;
+     margin-right: 25px !important;
+  }
+@media(min-width:1025px){
+    .users-list-form li .client-meta{
+        width: 120px;
+        }
+    }
+@media(max-width:1024px){
+    .users-list-form li .client-meta{
+        padding-bottom: 15px;       
+    }
+}
+@media(max-width: 500px){
+    .client-save{
+        float: none;
+        margin: 0;
+        margin: 15px auto -5px !important;
+        display: block;
+    }
+}
+/*----EDIT DETAILS PAGE----*/
+
+
+.list-of-users{
+    background-color: #fff;
+    padding: 0 10px 5px;
+}
+
+.list-of-users-header{
+    background-color: #f5f5f5;
+}
+
+.product-list li:nth-child(even){
+    background-color: #ffffff;
+}
+
+.client-popup a, .client-popup a:hover{
+    margin-top: 10px;
+    transition: .3s;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.client-popup a:hover{
+    background-color: #f90;
+    color: #fff;
+}
+
+/*EDIT CLIENT IKONA*/
+.dealer-product-meta .client-edit-fa{
+    transition: .3s;
+    color: #fac212;
+    font-size: 25px;
+    vertical-align: middle;
+
+}
+.dealer-product-meta .client-edit-fa:hover{
+    color: #a7a7a7;
+    transform: scale(1.1);
+}
+
+#button_edit_users, #button_delete_users{
+    margin: 15px auto 15px;
+}
+/*EDIT CLIENT IKONA*/
+
+
+/*EDIT HOVER TOOLTIP*/
+a[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    left: 35px;
+    top: -10px;
+    color: #797878;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px 3px #0000004b;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px;
+  }
+
+/*EDIT HOVER TOOLTIP*/
+
+/*DELETE USER BUTTON*/
+#button_delete_users{
+    display: inline-block;
+}
+.list-of-users .delete_user_box{
+    display: none;
+    color: red;
+    font-size: 18px;
+    transition: .3s;
+    cursor: pointer;
+}
+.delete_user_box:hover{
+    color: #fac212;
+}
+/*DELETE USER BUTTON*/
+
+/*-----------IZMJENE 2.11.2021.-----------*/
+/*lista-korisnika.css*/
+.cart-title .fa { /*.hover-activator umjesto cart-title*/
+    color: #a7a7a7;
+    transition: .3s;
+}
+
+/*main.css*/
+@media(max-width:414px){
+    .boxevi a, .boxevi form{
+        flex: 0;
+    }
+}
+@media(max-width:414px){
+.dealer-product-meta{
+    padding: 0;
+}
+}
+/*lista-korisnika.css*/
+@media (max-width: 1024px){
+    .users-list-form li .dealer-product-meta, .list-of-users-header .dealer-product-meta, .list-of-users li .dealer-product-meta {
+        padding: 5px;
+        width: 100%;
+    }
+}
+.called-wrap{
+    max-height: 300px; /*umjesto height:300px*/
+}
+/*-----------IZMJENE 2.11.2021.-----------*/
+
+.client-details{
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.client-details .fa{
+    font-size: 20px;
+}
+.client-details:hover{
+    padding: 10px;
+}
